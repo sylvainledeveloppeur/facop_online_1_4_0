@@ -18,4 +18,4 @@ facop_online_1_4_0 files
 
 -------Base de donée------
 
-1- Retrouver la BD dans le dossier boot\bd\
+1- Retrouver la BD dans le dossier: boot\bd\
