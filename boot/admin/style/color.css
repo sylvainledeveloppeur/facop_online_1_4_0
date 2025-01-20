@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.blanc_1 {
+	color: #fff;
+}
+.blanc {
+	color: #fff;
+}
+/**/
+.noir_1 {
+	color: #11138c;
+}
+.noir_2 {
+	color: #11138c;
+}
+.noir_3 {
+	color: #969ea7;
+}
+.noir_4 {
+    color: #8c8c8c;
+}
+.noir_5 {
+    color: #8d8d8d;
+}
+.noir_6 {
+    color: rgba(61,61,61,0.69);
+}
+.noir_7 {
+    color: #505050;
+}
+.noir_8 {
+    color: #7f7f7f;
+}
+.noir_9 {
+    color: #0b0b0b;
+}
+
+.vert_1 {
+	background: #5fcf80;
+}
+.bleu_1 {
+	background-color: #42b4d6;
+}
+.bleu_2 {
+	color: #207892;
+}
+.bleu_3 {
+	color: #337ab7;
+}
+.bleu_4 {
+	color: #004780;
+}
+.bleu_storfish {
+	color:#00a5fa;
+}
+/*-------------------------------*/
+.orange_1 {
+	color: #f56900;
+}
+.jaune_1 {
+	background-color: #f1d600;
+}
+
+.orange_1 {
+	color: #f56900;
+	/* color: white; */
+	padding: 2px 10px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 0px #e16a13;
+	font-size: 13px;
+}
+.vert_1 {
+	background: #278443;
+	color: white;
+	padding: 2px 10px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 0px #13e11f;
+	font-size: 13px;
+}
+
+.rouge_1 {
+	/* color: #f56900; */
+	color: #f21919;
+	padding: 2px 10px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 0px #e11313;
+	font-size: 13px;
+}

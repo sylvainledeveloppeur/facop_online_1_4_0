@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*les couleurs du back*/
+
+
+/*------------------------------------------------------------------------*/
+.bg_gris_0 {
+	background: #848484;
+}
+.bg_gris_1 {
+	background: #ececec;
+}
+.bg_gris_2 {
+	background-color: #eaeaea;
+}
+.bg_gris_3 {
+	background-color: #f7f7f7;
+}
+.bg_gris_4 {
+	background: #f7f8fc;
+}
+.bg_gris_5 {
+	background-color: rgba(231,231,231,1.0);
+}
+.bg_gris_6 {
+	background: #f1f1f1;
+}
+.bg_gris_7 {
+	background: none repeat scroll 0 0 #EBF0F1;
+}
+.bg_gris_8 {
+	background: #bbc3c7;
+}
+.bg_gris_9 {
+	background: #eee;
+}
+.bg_gris_10 {
+	background: #f4f4f4;
+}
+.bg_gris_11 {
+    background-color: #e6e6e6;
+}
+.bg_gris_12 {
+	background-color: #e0e9f2;
+}
+/*------------------------------------------------------------------------*/
+.bg_noir_1 {
+	background: #3f4a50;
+}
+.bg_noir_2 {
+	background: #696969;
+}
+.bg_noir_3 {
+	background: #191919;
+}
+.bg_noir_4 {
+	background: #232c3b;
+}
+.bg_noir_5 {
+	background: #161c28;
+}
+.bg_noir_6 {
+	background-color: #0B0B0B;
+}
+.bg_noir_7 {
+	background: url(//www.ukzn.ac.za/wp-content/themes/ukznmainsite/css/images/footer.jpg) 50% 20% no-repeat #1C1C1C;
+
+}
+.bg_noir_8 {
+    background-color: #333;
+}
+.bg_noir_9 {
+    background-color: #444;
+}
+
+/*------------------------------------------------------------------------*/
+.bg_violette_1 {
+	background: #2d2d4c;
+}
+
+/*------------------------------------------------------------------------*/
+.bg_blanc {
+	background: #fff;
+}
+
+/*------------------------------------------------------------------------*/
+.bg_bleu_facebook {
+	background: #3b5998;
+}
+.bg_bleu_twitter {
+	background: #1da1f2;
+}
+.bg_bleu_linkedin {
+	background: #007bb6;
+	border-color: #007bb6;
+	color: #fff;
+}
+.bg_bleu_storfish {
+	background:#00a5fa;
+}
+.bg_bleu_storfish_2 {
+	background: #51718a;
+}
+.bg_bleu_sun {
+	background: #05519d;
+}
+.bg_bleu_1 {
+	background: #42b4d6;
+}
+.bg_bleu_2 {
+	background: #467d9a;
+}
+.bg_bleu_3 {
+	background-color: #0a84ff;
+}
+.bg_bleu_4 {
+	background: #0073aa;
+}
+.bg_bleu_5 {
+	background: rgba(0,68,111,1) none repeat scroll 0 0;
+}
+.bg_bleu_6 {
+	background-color: #00b8ed;
+}
+.bg_bleu_7 {
+	background-color: #0074bd;
+}
+.bg_bleu_8 {
+	background: #223f51;
+}
+.bg_bleu_9 {
+	background-color: #0082bb;
+}
+.bg_bleu_10 {
+	background-color: #009add;
+}
+.bg_bleu_11 {
+	background: #0082D6;
+}
+.bg_bleu_12 {
+	background-color: #00677f;
+}
+.bg_bleu_13 {
+    background-color: #00bff3;
+}
+.bg_bleu_14 {
+    background-color: #00bff3;
+}
+.bg_bleu_15 {
+	background: #0072c6;
+}
+.bg_bleu_16 {
+	background:#2990ff;
+}
+.bg_bleu_17 {
+    background-color: #4cc2e4;
+}
+
+/*------------------------------------------------------------------------*/
+.bg_orange_1 {
+	background-color: #ff922a;
+}
+.bg_orange_2 {
+	background-color: #ff6400;
+}
+.bg_orange_3 {
+	background-color: rgb(254, 87, 34);
+}
+
+/*------------------------------------------------------------------------*/
+.bg_vert_1 {
+	background: #02cc83;
+}
+.bg_vert_2 {
+	background: no-repeat 35% 50% #018232;
+}
+.bg_vert_3 {
+    background-color: #0e600e;
+}
+
+
+/*------------------------------------------------------------------------*/
+.bg_rouge_google{
+	background: #dd4b39;
+	border-color: #dd4b39;
+	color: #fff;
+}
+.bg_rouge_pt {
+	background: #cb2027;
+}
+.bg_rouge_1 {
+	background-color: #E30B18;
+}
+.bg_rouge_2 {
+	background: #fe1243;
+}
+.bg_rouge_3 {
+	background: #c72b24;
+}
+.bg_rouge_4{
+	background-color:rgba(54,1,2,0.87);
+}
+/*------------------------------------------------------------------------*/
+.bg_jaune_1 {
+	background: #ffd800;
+}
+
+/*------------------------------------------------------------------------*/
+.bg_deg_1 {
+  background:-webkit-radial-gradient(50% 90%,circle closest-corner,#07D9F9,#03456F 100%,#fff 300% );
+  background:-moz-radial-gradient(50% 90%,circle closest-corner,#07D9F9,#03456F 100%,#fff 300% );
+  background:-ms-radial-gradient(50% 90%,circle closest-corner,#07D9F9,#03456F 100%,#fff 300% );
+  background:-o-radial-gradient(50% 90%,circle closest-corner,#07D9F9,#03456F 100%,#fff 300% );
+  background:radial-gradient(50% 90%,circle closest-corner,#07D9F9,#03456F 100%,#fff 300% );
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#4d90fe',EndColorStr='#4787ed');Transform.Microsoft.gradient(startColorStr='#4d90fe',EndColorStr='#4787ed');
+}
+.bg_deg_2 {
+	 background: -moz-linear-gradient(-45deg, rgba(255,78,0,0.2) 0%, rgba(229,19,86,0.2) 100%); 
+	 background: -webkit-linear-gradient(-45deg, rgba(255,78,0,0.2) 0%,rgba(229,19,86,0.2) 100%); 
+	background: linear-gradient(135deg, rgba(255,78,0,0.2) 0%,rgba(229,19,86,0.2) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ff4e00', endColorstr='#33e51356',GradientType=1 );
+}
+.bg_deg_3 {
+	background-image: -webkit-radial-gradient(circle,#294f83,#162c4a);
+	background-image: radial-gradient(circle,#294f83,#162c4a);
+	background-repeat: no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@wallpaper-start-color', endColorstr='@wallpaper-end-color', GradientType=0);
+}
+.bg_deg_opa_1 {
+background: linear-gradient(0deg,transparent 0,rgba(41,144,255,1)) repeat-x;
+}

@@ -1,0 +1,470 @@
+<!doctype html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Bon de commande N° BT29762021</title>
+  <link href="../style/style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="img/png"  href="../../favicon.ico" />
+  <style type="text/css">
+      strong {
+      font-weight: bold;
+  }
+      .pagbon {
+      border: solid thin;
+      min-height: 600px;
+      width: 90%;
+      margin: 40px auto;
+      background-color: white;
+      border-radius: 15px;
+      /* box-shadow: 0px 0px 2px #333; */
+      padding: 50px 100px;
+      font-size: 25px;
+  }
+      .blochead::after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+  .infosto {
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      padding: 10px;
+      margin-top: 115px;
+  }
+      .infocus {
+      float: right;
+      width: 40%;
+      box-sizing: border-box;
+      padding: 10px;
+  }padding: 10px;
+  }
+      .blochead::after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+      .imgtop {
+      width: 35%;
+  }
+      .bontop {
+      border: solid thin;
+      background-color: #f2f2f2;
+      padding: 5px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+  }
+      .bonbot {
+      /* background-color: aliceblue; */
+      border: solid thin #d4e0ea;
+      padding: 36px 10px;
+      box-sizing: border-box;
+  }
+      .bontit {
+      font-weight: bold;
+      padding: 36px 5px 2px;
+      font-size: 30px;
+      border-bottom: solid 3px #d8dade;
+      margin-bottom: 25px;
+  }
+      .blocdres {
+      border: solid thin #616d7d;
+      border-radius: 10px;
+      padding: 15px 20px;
+      margin: 56px auto;
+  }
+          .blocreg {
+      border: solid thin #616d7d;
+      border-radius: 10px;
+      padding: 15px 20px;
+      margin: 56px auto;
+  }
+      .blocprint {
+      background-color: antiquewhite;
+      /* color: wheat; */
+      /* text-align: center; */
+      padding-left: 15px;
+      border: solid thin;
+  }
+      #print {
+      background-color: #35e613;
+      border-radius: 5px;
+      color: white;
+      padding: 1px 17px;
+      cursor: pointer;
+      border: solid thin black;
+      font-size: 20px;
+  }
+      #print:hover {
+      color: #000;
+  }
+  /*panier*/
+      #ocart {
+      font-size: 15px;
+  }
+  table#ocart tr th {
+      border-left: solid thin #d7d7d7;
+  }
+  table#ocart tr {
+      /* width: 25%; */
+      border-bottom: solid thin #ecedf0;
+      position: relative;
+  }
+  table#ocart tr th:nth-child(1) {
+      width: 10%;
+  }
+  table#ocart tr th:nth-child(1) img {
+      width: 70%;
+  }
+  table#ocart tr th:nth-child(2) {
+      width: 30%;
+  }
+  table#ocart tr th:nth-child(3) {
+      width: 10%;
+  }
+  table#ocart tr th:nth-child(4) {
+      width: 10%;
+  }
+  table#ocart tr th:nth-child(5) {
+      width: 15%;
+  }
+  table#ocart tr th:nth-child(6) {
+      width: 20%;
+  }
+  table#ocart tbody tr:nth-child(1) {
+      background-color: #a3abb3;
+      padding: 6px 0 !important;
+      color: white;
+  }
+  table#ocart tbody tr:nth-child(1) th {
+      padding: 10px 0;
+  }
+  table#ocart tr:hover {
+      background-color: #f3f6fb;
+      opacity: 0.6;
+  }
+  .onb {
+      display: block;
+      position: absolute;
+      top: 2px;
+      left: 0;
+      background-color: #edeeef;
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      line-height: 2;
+      /* color: white; */
+      border: solid thin;
+      box-shadow: 0px 0px 6px 0px #0006;
+  }
+  .osup {
+      display: block;
+      position: absolute;
+      top: 2px;
+      right: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      line-height: 2;
+      color: #ff3600;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  .cart0 {
+      color: red;
+  }
+  .linecapri li {
+      list-style-type: none;
+      border-bottom: solid thin #e9e9e9;
+      padding: 10px 0;
+      width: 90%;
+  }
+  .cart_pri {
+      background-color: #f3f3f3;
+      text-align: center;
+      margin: auto;
+      width: 95%;
+      font-size: 45px;
+      color: green;
+      font-weight: bold;
+      padding: 10px 0;
+  }
+  .pas_cart {
+      display: block;
+      /* margin: auto; */
+      width: 70%;
+      border: solid thin #234223;
+      padding: 10px 2px;
+      text-align: center;
+      margin: 30px auto;
+      background-color: #3b8705;
+      color: white !important;
+      border-radius: 3px;
+  }
+  .pas_cart:hover {
+      opacity: .7;
+  }
+  #formtique div {
+      padding: 5px 0;
+  }
+  .putbon {
+      width: 90%;
+      margin: auto;
+      background-color: #565859;
+      padding: 2px !important;
+      border-radius: 3px;
+  }
+  .putbon input {
+      display: block;
+      width: 100%;
+      border: transparent;
+      text-align: center;
+      padding: 10px 0;
+  }
+  .putbon input:nth-child(2) {
+      background-color: inherit;
+      color: white;
+  }
+  .putbon input:nth-child(2):hover {
+      opacity: .7;
+      background-color: #070707;
+  }
+  .vidcart {
+      position: absolute;
+      left: -23px;
+      top: 0;
+      z-index: 100;
+      width: 20px;
+      background-color: #d50404;
+      color: white !important;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 3px;
+      box-shadow: 0px 0px 6px 0px #0006;
+  }
+  .vidcart em {
+      color: inherit;
+      display: block;
+      /* text-decoration: none; */
+      font-style: normal;
+  }
+  table#ocart input {
+      display: block;
+      width: 83%;
+      margin: auto;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 5px;
+      box-sizing: border-box;
+      border: solid thin #d6dade;
+      background-color: #f6f5f3;
+  }
+
+  @media screen and (max-width:768px)
+  {
+
+       .pagbon {
+      width: 98%;
+      padding: 50px 20px;
+      margin: 10px auto;
+  padding: 0px 20px;
+  }
+  .infosto {
+      width: 98%;
+  }
+      .infocus {
+      width: 98%;
+  }
+  .infosto {
+      width: 98%;
+      /* float: left; */
+      box-sizing: border-box;
+      padding: 10px;
+      margin-top: 20px;
+  }
+  }
+
+  @media print 
+  {
+  .blocprint {
+      display:none;
+  }
+   .pagbon {
+      width: 98%;
+      padding: 50px 20px;
+      margin: 10px auto;
+  padding: 0px 20px;
+  font-size: 15px;
+  }
+  #bloc_comand {
+      width: 98%;
+      margin: 50px auto;
+  }
+  #bloc_comand li {
+      float: left;
+      width: 50%;
+  }
+
+
+  }
+  </style>
+
+
+  </head>
+
+  <body>
+
+  <div class="pagbon">
+  <div class="blocprint">Il est vivement conseillé d'imprimer cette page (Mode:paysage)  <span id="print">Imprimer maintenant</span></div>
+    <div class="blochead">
+      <div class="infosto">
+          <div class="bontit">Bon de commande </div>
+      <div class="imgtop"><img src="../img/logo/logo.png" alt=""/></div>
+  <p class="linesto">Moguez</p>
+  <p class="linesto">BP : Berlin</p>
+  <p class="linesto">Berlin</p>
+  <p class="linesto">Allemagne</p>
+  <p class="linesto"><strong>Tél :</strong> +237 699 46 81 64 / +237 674 03 70 04</p>
+  <p class="linesto"><strong>Email :</strong>info@moguez.com</p>
+  <p class="linesto"><strong>Site web :</strong> www.moguez.com</p>
+  </div>
+      <div class="infocus">
+        <div class="bontop">
+    <p class="linesto">	BON DE COMMANDE N° BT29762021</p>
+    <p class="linesto">Date d'émission : 20-04-2021 12:28:56</p>
+        </div>
+        <div class="bonbot">
+    <p class="linesto">ali bomaye</p>
+
+
+    <p class="linesto">Pays</p>
+    <p class="linesto"><strong>Tél:</strong> 5455545556</p>
+    <p class="linesto"><strong>E-mail:</strong> alimo3@gmail.com</p>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="blocdres">
+
+      <div class="bontit">Adresse de livraison </div>
+  <p class="linesto"><strong>Destinataire :</strong> ali bomaye</p>
+  <p class="linesto"><strong>Address :</strong>hhhh</p>
+  <p class="linesto"><strong>Ville :</strong> douala</p>
+  <p class="linesto"><strong>Région :</strong> ---</p>
+  <p class="linesto"><strong>Pays :</strong> Pays</p>
+  <p class="linesto"><strong>Téléphone :</strong> 5455545556</p>
+  <p class="linesto"><strong> Email :</strong> alimo3@gmail.com</p>
+  <p class="linesto"><strong>Date de livraison :</strong> 72 heures (Max)  	</p>
+
+    </div>
+
+    <div class="bonpanier">
+      <div class="wid_98 bg_blanc bor_gris_1 mar_top_15 mar_auto">
+  <table id="ocart" width="100%" border="1">
+
+                  <tbody>
+                    <tr>	  
+                      <th scope="col">Image </th>
+                      <th scope="col">Article</th>
+                      <th scope="col">Quantité</th>
+                      <th scope="col">Prix unitaire</th>
+                      <th scope="col">Expéditeur</th>
+                      <th scope="col">Sous-total</th>
+                    </tr><tr>
+              <th scope="col"><img src="../img/store/1.jpg"  alt=""/></th>
+              <th scope="col">Montesquieu De l'esprit des loi II</th>
+              <th scope="col"><input type="text" value="1"> </th>
+              <th scope="col">3  €</th>
+              <th scope="col">   A livrer</th>
+              <th scope="col">3  € 
+                <span class="onb">1</span>
+                <a href="index.php?model=ultimate&sheet=cart&amp;panie_supp=Montesquieu De l'esprit des loi II" class="fa fa-remove osup" title="Remove"></a></th>
+            </tr><tr>
+              <th scope="col"><img src="../img/store/8.jpg"  alt=""/></th>
+              <th scope="col">Les Misrérables</th>
+              <th scope="col"><input type="text" value="1"> </th>
+              <th scope="col">50  €</th>
+              <th scope="col">   A livrer</th>
+              <th scope="col">50  € 
+                <span class="onb">2</span>
+                <a href="index.php?model=ultimate&sheet=cart&amp;panie_supp=Les Misrérables" class="fa fa-remove osup" title="Remove"></a></th>
+            </tr><tr>
+              <th scope="col"><img src="../img/store/5.jpg"  alt=""/></th>
+              <th scope="col">Les Chants du crépuscule</th>
+              <th scope="col"><input type="text" value="1"> </th>
+              <th scope="col">20  €</th>
+              <th scope="col">   A livrer</th>
+              <th scope="col">20  € 
+                <span class="onb">3</span>
+                <a href="index.php?model=ultimate&sheet=cart&amp;panie_supp=Les Chants du crépuscule" class="fa fa-remove osup" title="Remove"></a></th>
+            </tr> </tbody>
+        </table>
+
+       <div class="wid_90 mar_auto bord_ after linecapri pad_top_40">
+          <ul class="flo_lef wid_30">
+
+  <li>Nombre de colis: <strong>3</strong></li>
+  <li>Net à payer: <strong>73 €</strong> </li>
+  <li>Sous-total: <strong>73 €</strong> </li>
+  <li>Réduction(0 %): 
+      <strong>0 €</strong> </li>
+  <li>Frais de livraison: <strong>0 €</strong></li>
+
+
+            </ul>
+
+          <div class="flo_lef wid_35">
+  <div class="cart_pri totau">73 <em>€</em> </div>
+        </div>
+      </div>
+      </div><!--fin bon panier-->
+
+    <div class="blocreg">
+      <div class="bontit">Réglement</div>
+  <p class="linesto">- Date limite : 00-00-00 </p>
+  <p class="linesto">- Paiement : Western Union</p>
+
+      </div>
+      <p class="bonfin">Pour toutes préoccupations, Veuillez contactez notre service client. E-mail: lareferencedocumentaire@gmail.com - Tél & whatsapp: +237 699 46 81 64</p>
+  </div>
+
+  <script type="text/javascript" src="../js/jquery-1.9.1.js"></script>
+  <script>
+          /*animer bouton patner*/	
+          function paycolor(){
+
+  var max=Math.max(42, 4, 38, 255, 105), 
+      min=Math.min(42, 0, 38, 1337, 105),
+      $coul1=Math.floor(Math.random() * (max - min) + min);
+
+  var max=Math.max(42, 4, 38, 255, 105), 
+      min=Math.min(42, 0, 38, 1337, 105),
+      $coul2=Math.floor(Math.random() * (max - min) + min);
+
+  var max=Math.max(42, 4, 38, 255, 105), 
+      min=Math.min(42, 0, 38, 1337, 105),
+      $coul3=Math.floor(Math.random() * (max - min) + min);
+
+
+  $('.totau').css(
+      'background-color','rgba('+$coul1+','+$coul2+','+$coul3+',1)'
+  );
+
+  }
+
+  setInterval(paycolor,500);
+
+
+          $("#print").click(
+
+     function (){
+          window.print();
+          return false;
+      }
+      );
+      </script>
+
+  </body>
+  </html>

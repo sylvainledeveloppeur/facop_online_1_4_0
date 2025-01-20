@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+/**********************************************************head******************************************/
+.barnav {
+	font-size: 35px;
+	margin-left: 15px;
+	cursor: pointer;
+	display: none;
+}
+#barcookie {
+	position: fixed;
+	left: 0;
+	bottom: 10px;
+	background-color: #1a86f9e6;
+	width: 100%;
+	z-index: 500;
+	color: white;
+	padding: 10px;
+	box-shadow: 0px -1px 6px 0px #000000b3;
+	display: none;
+}
+#barcookie i {
+	position: absolute;
+	top: 10%;
+	right: 4%;
+	font-size: 25px;
+	cursor: pointer;
+}
+#barcookie a {
+	border: solid thin;
+	padding: 2px 10px;
+	border-radius: 5px;
+	text-transform: capitalize;
+	color: inherit;
+}
+/**********************************************************foot******************************************/
+.ulcopy li {
+	list-style-type: none;
+	float: left;
+	width: 50%;
+}
+.ulbytams li {
+	float: left;
+	width: 33%;
+}
+.lincopy {
+	font-size: 15px;
+}
+/********************************************************************************************************/
+#mobiordi, #ordimobi {
+	/* background-color: #2990ff; */
+	color: inherit;
+	border-radius: 5px;
+	padding: 2px 15px;
+	border: solid 3px;
+	position: relative;
+	/* border: solid 5px #036bdb; */
+}
+#mobiordi:hover,#ordimobi:hover,#tamstechn:hover {
+	opacity: 0.5;
+	box-shadow: 0px 0px 16px 1px;
+	font-size: 15px;
+}
+#mobiordi::before {
+	content: "\f20a";
+	font-family: "ionicons";
+	margin-right: 5px;
+	/* font-weight: bold; */
+}
+#ordimobi::before {
+	content: "\f1fa";
+	font-family: "ionicons";
+	margin-right: 5px;
+	/* font-weight: bold; */
+}
+
+/******************************************form**********************************************************/
+
+.linefom {
+	float: left;
+	width: 48%;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.linefom input, .linefom textarea, .linefom select {
+	width: 95%;
+	border: solid 1px #d4d8db;
+	/* background-color: #d2d2d2; */
+	/* color: white; */
+	border-radius: 3px;
+	padding: 3px 10px;
+	box-sizing: border-box;
+	resize: vertical;
+	padding-left: 45px;
+}
+ .linefom select {
+	color: #afb3b9;
+}
+
+.linefom2 {
+	/* float: left; */
+	width: 98%;
+	margin-bottom: 15px;
+	position: relative;
+}
+/*.linefom2 input, .linefom2 textarea, .linefom2 select {
+	width: 95%;
+	border: solid 1px #d4d8db;
+	border-radius: 3px;
+	padding: 7px 10px;
+	box-sizing: border-box;
+	resize: vertical;
+	padding-left: 45px;
+}*/
+.linefom2 input, .linefom2 textarea, .linefom2 select {
+	width: 95%;
+	border: solid 1px #d4d8db;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	resize: vertical;
+	padding-left: 45px;
+	border-radius: 20px !important;
+}
+.linefom input[type="submit"] {
+	background-color: #de9225;
+	color: white;
+}
+.linefom input[type="submit"]:hover {
+	background-color: #E29F40;
+	color: white;
+}
+.linefom i,.linefom2 i {
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	font-size: 20px;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+/*******************************************page*********************************************************/
+
+
+.uni_tac {
+	min-height: 100px;
+	/* background-color: aliceblue; */
+	padding: 10px;
+	margin-bottom: 15px;
+}
+ul.uni_tac li {
+	list-style-type: none;
+	padding: 10px 0;
+}
+ul.uni_tac li i {
+	font-size: 25px;
+	margin-right: 10px;
+	color: #de9225;
+}
+.uni_tac h2 {
+	background-color: #e6e8ec;
+	padding: 10px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.pasfo {
+	color: white !important;
+	font-style: normal !important;
+}

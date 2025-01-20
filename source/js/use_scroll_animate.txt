@@ -1,0 +1,10 @@
+1---------------------
+inclure "scroll_animate.js"
+
+2---------------------
+placer sur l element a animer la class "wow"
+
+3---------------------
+ajouter la class de l animation "tada"
+
+ok----------------------------

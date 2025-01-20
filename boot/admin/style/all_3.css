@@ -1,0 +1,278 @@
+/* ----------------- drag drop avatar update -------------------- */
+#dragandrophandler {
+	border: 2px dotted #0B85A1;
+	width: 100%;
+	color: #92AAB0;
+	text-align: left;
+	vertical-align: middle;
+	padding: 10px 10px 10 10px;
+	margin-bottom: 10px;
+	font-size: 200%;
+	text-align: center;
+	padding: 50px 0;
+	border-radius: 10px;
+	background-color: #eef2f7;
+}
+.progressBar {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    overflow: hidden;
+    display:inline-block;
+    margin:0px 10px 5px 5px;
+    vertical-align:top;
+}
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #0ba1b5; border-radius: 3px; 
+}
+.statusbar
+{
+    border-top:1px solid #A9CCD1;
+    min-height:25px;
+    width:700px;
+    padding:10px 10px 0px 10px;
+    vertical-align:top;
+}
+.statusbar:nth-child(odd){
+    background:#EBEFF0;
+}
+.filename
+{
+display:inline-block;
+vertical-align:top;
+width:250px;
+}
+.filesize
+{
+display:inline-block;
+vertical-align:top;
+color:#30693D;
+width:100px;
+margin-left:10px;
+margin-right:5px;
+}
+.abort{
+    background-color:#A8352F;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;display:inline-block;
+    color:#fff;
+    font-family:arial;font-size:13px;font-weight:normal;
+    padding:4px 15px;
+    cursor:pointer;
+    vertical-align:top
+    }
+/* ----------------- drag drop avatar update end-------------------- */
+    .aava img {
+        width: 100%;
+        height: 100%;
+    }
+    .bmnom img {
+        width: 100%;
+        height: 100%;
+    }
+    .thepic {
+        border-radius: 10px;
+        width: 100%;
+        display: block;
+        margin: 5px auto 50px;
+    }
+    .utable2 select {
+        background-color: #f0f0f0 !important;
+        color: #23668f;
+        height: 35px;
+        width: 158px;
+        border: transparent;
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .groupSettings {
+        background-color: #d1dae1;
+        margin: 25px 0;
+        padding: 6px 0;
+        box-shadow: 0px 0px 4px 0px #10121338;
+    }
+
+.lefpai {
+	border-right: solid thin #3494fd30;
+}
+.lefpai img {
+	width: 120px;
+	display: block;
+	height: 120px;
+	border-radius: 100%;
+	margin: 10px auto;
+	border: solid thick #e1e7ea;
+}
+.linkpaie {
+	background-color: #c3c8ca;
+	border-radius: 10px;
+	width: 80%;
+	margin: 4% auto;
+	/* color: white; */
+	cursor: pointer;
+}
+.linepag span {
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+}
+.linepag {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.line_form .chek {
+	font-size: 25px;
+	margin-right: 23px;
+	cursor: pointer;
+	color: #34404b;
+}
+.okchek {
+	display: none;
+}
+.btnVide {
+	color: #35393c;
+	border: solid thin;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.btnConfi {
+	
+	color: #35393c;
+	border: solid thin;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: red;
+	color: white;
+	margin-top: 10px;
+	display: none;
+}
+    .mybtn {
+        background-color: #196eff !important;
+        color: antiquewhite;
+        height: 35px;
+        width: 158px;
+        border: transparent;
+        cursor: pointer;
+        border-radius: 10px; 
+    }
+    
+    .myinput{
+        display: block;
+        width: 96%;
+        margin-bottom: 15px;
+        height: 42px;
+        padding: 6px 17px !important;
+        border: solid thin #196eff52;
+        border-radius: 10px;
+        background-color: #fbfbfb;
+        color: #196eff;
+    }
+
+    .btnState {
+        border: solid 1;
+        margin-top: 0.5em;
+        padding: 2px;
+        width: 80%;
+        margin: auto;
+        margin-top: 0.5em;
+        display: none;
+    }
+    .btnState:hover {
+        cursor: pointer;
+        opacity: .5;
+        border: solid thin;
+    }
+    .btnStateEN {  
+        background-color: #f98844;
+        color: #a22508;
+    }
+    .btnStateTE {
+        background-color: #81ee63;
+        color: #147107;
+    }.btnStateAN {
+        background-color: #f94444;
+        color: #600000;
+    }
+    .utable tr:hover .btnState {
+        display: block;
+    }
+
+    .utable .supedit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 20em;
+        box-shadow: 0px 0px 6px 0px #0000004d;
+        border-radius: 2px;
+        /* background-color: crimson; */
+    }
+
+    .utable .supedit li {
+        float: left;
+        list-style-type: none;
+        width: 16.6%;
+        opacity: 1;
+        color: white;
+        height: 2em;
+    }
+
+    .utable .supedit a {
+        color: white;
+        display: block;
+        height: auto;
+        padding-top: 2px;
+    }
+    .utable .supedit li:nth-child(1) {
+        background-color: green;
+    }
+    .utable .supedit li:nth-child(2) {
+        background-color: #ecb100;
+    }
+    .utable .supedit li:nth-child(3) {
+        background-color: #1358ce;
+    }
+    .utable .supedit li:nth-child(4) {
+        background-color: #ee4300;
+    }
+    .utable .supedit li:nth-child(5) {
+        background-color: #000;
+    }
+    .utable .supedit li:nth-child(6) {
+        background-color: rgb(255, 0, 0);
+    }
+
+    .utable .supedit li:hover {
+        opacity: .7;
+        background-color: #4f5e66 !important;
+    }
+    .noact {
+        background-color: white !important;
+    }
+    .noact:hover {
+        background-color: white !important;
+        cursor: not-allowed;
+    } 
+    .noact a:hover{
+        cursor: not-allowed;
+    }
+    .petibtn {
+        border: solid thin;
+        padding: 4px;
+        background-color: #0096a6;
+        color: white !important;
+        border-radius: 5px;
+        font-size: 0.8em;
+        font-style: normal !important;
+        margin-top: 8px;
+        display: inline-block;
+    }

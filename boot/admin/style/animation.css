@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*************************************************les animations *************************************************************
+	transition: all .5s cubic-bezier(.6,2,.4,1);
+	transition: all 0.2s ease;
+transition: all 0.2s ease-in;
+transition: all 0.2s ease-out;
+transition: all 0.2s ease-in-out;
+	*/
+.transi_1 {
+  -webkit-transition:all 0.4s linear;
+  -moz-transition:all 0.4s linear;
+  -ms-transition:all 0.4s linear;
+  -o-transition:all 0.4s linear;
+  transition:all 0.4s linear ;
+}
+/* annimation 1 */
+@keyframes nomAnim {
+from{background:#09C;height:36px;margin-top:-8px;}
+70%{background:white;height:20px;margin-top:0px;}
+to{background:white;height:20px;margin-top:0px;}
+}
+.divanim  {
+     width: 6px;
+     height: 20px;
+     background: white;
+     animation: nomAnim 0.7s infinite linear;
+}
+/* -----------------------------------------------------------------------------------------
+transform: scale(1.5);
+transform: rotate(2deg);
+transform: translateX(22px) translateY(10px);
+transform: skewX(5deg) skewY(10deg);
+transform: scale(1.5);
+*/
+.transfor_scale {
+-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+     -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+         transform: scale(1.5);
+}
+.transfor_rotate {
+
+
+
+}
+.transfor_translate {
+
+
+
+}
+.transfor_skew {
+
+
+
+}

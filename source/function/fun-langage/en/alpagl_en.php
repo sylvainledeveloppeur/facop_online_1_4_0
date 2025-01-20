@@ -1,0 +1,106 @@
+<?php 
+/*****************Ensemble de mots en anglais de la page all-page*******************/ 
+
+ $_SESSION['mois']=$mois=array (1=>"Jan",2=>"Feb",3=>"Mar",4=>"Apr",5=>"May",6=>"Jun",7=>"Jul",8=>"Aug",9=>"sept",10=>"Oct",11=>"Nov",12=>"Dec");
+
+$sex_lan=array("man"=>"Man","woman"=>"Woman");
+
+$alpagl=array(
+0=>' alpagl.php "en"',
+1=>"Home",
+2=>'Archives',  
+3=>"PAN-AFRICAN",  
+4=>"ARCHIVES",  
+5=>"PRESIDENTIAL VOTE",  
+6=>"Show all",  
+7=>"RECOMMENDED DEBATES",  
+8=>"RECOMMENDED REACTIONS ",
+9=>"Country",
+10=>"Category ",
+11=>"I Like ",
+12=>"Reading ",
+13=>"Reaction ",
+14=>"Read more...",
+15=>"Reply ",
+16=>"Reply to ",
+17=>"Signal",
+18=>"React to this debate...",
+19=>"Watch Later",
+20=>"Show more debate",
+21=>"Vote",
+22=>"Author",
+23=>"Connected to this debate",
+24=>'my debates',  
+25=>'my favorites',  
+26=>'the Pan-African',  
+27=>"my brothers",  
+28=>'my profile',  
+29=>'Search for: ',  
+30=>'presidential vote',
+31=>"Edit",  
+32=>"name",  
+33=>"first name",  
+34=>"E-mail",  
+35=>"sex: ",  
+36=>"country",  
+37=>"Occupation",  
+38=>"Subscribe",
+39=>"Its debates",
+40=>"His brothers",
+41=>"Debates",
+42=>"Pan-African brothers",
+43=>"result for",  
+44=>"results for",  
+45=>"the field is empty",  
+46=>"no result",  
+47=>"the recent reactions will display automatically below",  
+48=>"Add",  
+49=>"as Pan-African brother",
+50=>"",
+51=>"",
+52=>"",
+53=>"",
+54=>"",
+55=>"",
+56=>"",
+57=>"",
+58=>"",
+59=>"",
+60=>"",
+61=>"",
+62=>"",
+63=>"",
+64=>"",
+65=>"",
+66=>"",
+67=>"",
+68=>"",
+69=>""
+
+
+);
+
+/**********mots charger par ajax********************/
+$_SESSION['alpagljax']=array(
+0=>'alpagl.php "en"',
+1=>"Vote",
+2=>"Thank you! You've got",
+3=>"votes today",
+4=>"Sorry, come back tomorrow to vote!",
+9=>"Country",
+10=>"Category ",
+11=>"I Like ",
+12=>"Reading ",
+13=>"Reaction ",
+14=>"Read more...",
+15=>"Reply ",
+16=>"Reply to ",
+17=>"Signal",
+18=>"React to this debate...",
+19=>"Watch Later",
+20=>"Show more debate",
+21=>'Brother'
+
+);
+ 
+?>

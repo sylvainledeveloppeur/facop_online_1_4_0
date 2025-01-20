@@ -1,0 +1,73 @@
+
+
+#ErrorDocument 404  http://www.beeinblue.com/index.php?sheet=404&model=uno
+ErrorDocument 404  https://facop.training/index.php?b=uno.404
+
+#ErrorDocument 403  http://www.beeinblue.com/index.php?sheet=404&model=uno
+ErrorDocument 403  https://facop.training/index.php?b=uno.404
+
+#RedirectPermanent /no-js.html http://www.beeinblue.com/index.php?sheet=404&model=uno
+
+
+#---------------------------------------------------reecriture des url--------------------------------------------
+
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^404$ https://facop.training/index.php?b=uno.404 [L]
+
+
+#-----avatar inscrit--
+
+RewriteRule ^congratulation$ page_jsp/singin/hello_singin.php [L] 
+RewriteRule ^exit$ log-out.php [L] 
+RewriteRule ^lang_([a-z]+)$ function_jsp/fun-langage/fun-chang-lang.php?lang=$1 [L] 
+
+
+
+RewriteRule ^home$ index.php [L]
+RewriteRule ^(.*)_([0-9-]+)_p$ all-page2.php?sheet=les_profiles&user=$2&nom=$1 [L]
+RewriteRule ^parrain=(.*)$ index.php?b=loguser.signup.loguser&parrain=$1
+
+#----------rediriger n importe quoi d autre ici
+
+#RewriteRule (.*)$ all-page.php?sheet=debat&valeur=$1 [L]
+
+#---------------Rewrite default page public--------------------------------------------------------------------------
+
+RewriteRule ^TT([a-z]+)$ index.php?sheet=$1&model=uno
+
+
+
+#------------responsive design-----------------------------------------------------------------------------------
+
+RewriteRule ^devise_([a-z]+)$ source/function/fun-responsive/fun-chang-devise.php?responsive=$1 [L]
+
+
+ 
+#------------------------------------------------- contrôle du cache navigateur-----------------------------------
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 7200 seconds"
+ExpiresByType image/jpg "access plus 2592000 seconds"
+ExpiresByType image/jpeg "access plus 2592000 seconds"
+ExpiresByType image/png "access plus 2592000 seconds"
+ExpiresByType image/gif "access plus 2592000 seconds"
+AddType image/x-icon .ico
+ExpiresByType image/ico "access plus 2592000 seconds"
+ExpiresByType image/icon "access plus 2592000 seconds"
+ExpiresByType image/x-icon "access plus 2592000 seconds"
+ExpiresByType text/css "access plus 2592000 seconds"
+ExpiresByType text/javascript "access plus 2592000 seconds"
+ExpiresByType text/html "access plus 7200 seconds"
+ExpiresByType application/xhtml+xml "access plus 7200 seconds"
+ExpiresByType application/javascript A259200
+ExpiresByType application/x-javascript "access plus 2592000 seconds"
+ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+</IfModule>
+
+ 
+
+
+

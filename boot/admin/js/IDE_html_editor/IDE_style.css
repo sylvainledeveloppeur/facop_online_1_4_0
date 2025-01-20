@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.intLink { cursor: pointer; }
+img.intLink { border: 0; }
+#toolBar1 select { font-size:10px; }
+#textBox {
+	width: 540px;
+	min-height: 200px;
+	border: 1px #c6d1d5 solid;
+	padding: 12px;
+	overflow: auto;
+	box-shadow: 0px 0px 26px -16px black inset;
+	max-height: 500px;
+}
+#textBox #sourceText {
+  padding: 0;
+  margin: 0;
+  min-width: 498px;
+  min-height: 200px;
+}
+#editMode label { cursor: pointer; 
+	}
+	body {
+	background-color: #e4ecef;
+}
+	#IDE_bloc {
+	background-color: white;
+	width: 600px;
+	margin: 20px auto;
+	border: dashed 1px;
+	padding: 10px;
+	border-radius: 5px;
+}
+	#textBox {
+	width: 540px;
+	min-height: 200px;
+	border: 1px #c6d1d5 solid;
+	padding: 12px;
+	overflow: auto;
+	box-shadow: 0px 0px 26px -16px black inset;
+	font-size: 13px !important;
+	font-family: arial;
+	max-height: 700px;
+
+}
+#IDE_bloc .linbou {
+	display: none;
+}
+#toolBar1 select {
+	display: inline-block !important;
+	width: 19%;
+	text-transform: capitalize;
+	text-align: center;
+}
+#editMode * {
+	display: inline-block !important;
+	width: 14% !important;
+	/* line-height: 12px !important; */
+	margin-top: 16px;
+	height: 21px !important;
+}

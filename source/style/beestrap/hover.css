@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.opa_hov_01:hover {
+	opacity: 0.1;
+}
+.opa_hov_02:hover {
+	opacity: 0.2;
+}
+.opa_hov_03:hover {
+	opacity: 0.3;
+}
+.opa_hov_04:hover {
+	opacity: 0.4;
+}
+.opa_hov_05:hover {
+	opacity: 0.5;
+}
+.opa_hov_06:hover {
+	opacity: 0.6;
+}
+.opa_hov_07:hover {
+	opacity: 0.7;
+}
+.opa_hov_08:hover {
+	opacity: 0.8;
+}
+.opa_hov_09:hover {
+	opacity: 0.9;
+}
+.opa_hov_1:hover {
+	opacity: 1;
+}

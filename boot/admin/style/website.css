@@ -1,0 +1,16 @@
+.iladd {
+	margin: 9px auto;
+	width: 95%;
+}
+.agrou input {
+	display: block;
+	background-color: white;
+	height: 37px;
+	width: 78%;
+	border: transparent;
+	padding-left: 6px;
+}
+.bgrou {
+	margin: 25px auto;
+	width: 96%;
+}

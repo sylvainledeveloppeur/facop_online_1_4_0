@@ -1,0 +1,27 @@
+User-agent: *
+
+Disallow:  /boot
+Disallow:  /source
+Allow: /.htaccess
+Allow: /favicon.ico
+Allow: /index.php
+Disallow:  /source/class
+Disallow:  /source/config
+Allow:  /source/doc
+Disallow:  /source/function
+Allow:  /source/img
+Disallow:  /source/js
+Disallow:  /source/page
+Allow:  /source/pdf
+Disallow:  /source/require
+Disallow:  /source/section
+Disallow:  /source/style
+Disallow:  /source/video
+Disallow:  /source/dos.php
+Disallow:  /source/error.php
+Disallow:  /source/out.php
+Disallow:  /source/uno.php
+Disallow:  /source/user.php
+
+
+sitemap: http://facop.training/sitemap.xml

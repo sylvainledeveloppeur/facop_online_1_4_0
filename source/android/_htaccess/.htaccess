@@ -1,0 +1,5 @@
+AuthName "Page protegee, veuillez vous identifier"
+AuthType Basic
+AuthUserFile "/home/qrkzxsvr/public_html/facop/facop.1.0.2/source/android/.htpasswd" 
+#AuthUserFile "E:\bgc_hxbn_vxn\PROJET\DREAMWERVER\wamp\www\web\tamstechn\tamstechn.3.0.0\boot\.htpasswd"
+Require valid-user

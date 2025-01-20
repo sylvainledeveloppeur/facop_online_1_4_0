@@ -1,0 +1,20 @@
+
+--------1-------------------------------------------
+
+-cree son dossier dans le dossier de ce fichier_ _ _ EX:"maLang/ ou en/"
+
+--------2-----------------------------------------
+
+-cree les differents fichies se trouvant dans le dossier "fr/" et copier dans "maLang/"
+
+-------3----------------------------------------
+
+-Traduire les mots de ces fichiers en la lang souhaité
+
+------4------------------------------------
+
+-Definir le dossier de cette langue dans les blocs de condition des langues dans "fun-set-lang.php"
+    
+    ****1** dans le bloc existance de la langue en sesion
+    
+    ****2** dans le bloc langue du navigateur
